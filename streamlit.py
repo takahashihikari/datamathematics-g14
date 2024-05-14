@@ -77,9 +77,8 @@ if uploaded_file:
                 ax.barh(range(len(data)), data, tick_label=labels, color='#007bff')
 
                 # グラフのタイトルとラベルを設定（オプション）
-                ax.set_ylabel('質問')
-                ax.set_xlabel('評価の合計')
-                ax.set_title('新しいアンケート結果')
+                ax.set_ylabel('question')
+                ax.set_title('new questionnaire results')
 
                 # グラフをStreamlitで表示
                 st.pyplot(fig)
