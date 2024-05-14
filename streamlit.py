@@ -35,7 +35,7 @@ if uploaded_file:
 
                 # データの準備
                 data = result.flatten()
-                labels = df.index.tolist()  # 質問のインデックスを取得
+                labels = df.index.tolist() 
 
                 # 水平棒グラフを作成
                 fig, ax = plt.subplots()
